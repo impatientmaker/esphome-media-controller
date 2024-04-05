@@ -4,5 +4,5 @@ In here are two yaml files for Esphome devices to control your media player(s) v
 
 Video coming shortly to explain it all.
 
-![1_button_volume wiring diagram](1_button_volume.png?raw=true "1 button wiring diagram")
-![4_button_volume wiring diagram](4_button_volume.png?raw=true "4 button wiring diagram")
+![volume control wiring diagram](volume_control_wiring.png?raw=true "volume control wiring diagram")
+![media control wiring diagram](media_control_wiring.png?raw=true "media control wiring diagram")
