@@ -69,7 +69,7 @@ script:
       - homeassistant.service:
           service: media_player.volume_up
           data:
-            entity_id: media_player.denon_avr
+            entity_id: media_player.YOUR_AUDIO_OUTPUT_PLAYER_ID
       - logger.log: "vol up trigger"
       - sensor.rotary_encoder.set_value:
           id: knob_family
@@ -79,7 +79,7 @@ script:
       - homeassistant.service:
           service: media_player.volume_down
           data:
-            entity_id: media_player.denon_avr
+            entity_id: media_player.YOUR_AUDIO_OUTPUT_PLAYER_ID
       - logger.log: "vol down trigger"
       - sensor.rotary_encoder.set_value:
           id: knob_family
